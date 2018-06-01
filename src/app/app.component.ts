@@ -6,13 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-}
-
-export class TableBasicExample {
   displayedColumns = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
 }
+
 
 export interface PeriodicElement {
   name: string;
